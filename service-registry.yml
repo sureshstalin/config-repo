@@ -1,0 +1,15 @@
+#spring.application.name=service-registry
+#server.port=8761
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+server:
+  port: 8761
+spring:
+  application:
+    name: service-registry
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+billing:
+  app: This is billing App Registry Service default
