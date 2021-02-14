@@ -18,6 +18,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
 billing:
   app: This is billing App Account Service
+  test: new Properties
 default:
   role: ROLE_DEFAULT
 user:
