@@ -7,9 +7,9 @@ server:
 spring:
   application:
     name: service-registry
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
 billing:
   app: This is billing App Registry Service default
