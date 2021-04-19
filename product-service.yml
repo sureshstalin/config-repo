@@ -1,0 +1,20 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: product-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/product-db
+    username: billing-product
+    password: billing123$$
+    driver-class-name: com.mysql.cj.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+billing:
+  app: This is billing App Product Service default
