@@ -11,7 +11,5 @@ resliance4j.retry:
   instances:
     customergetall:
       maxRetryAttempts: 5
-
-
 billing:
   app: This is billing App Reporting Service default
