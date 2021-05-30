@@ -7,11 +7,10 @@ eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
-resliance4j:
-  retry:
-    instances:
-      customergetall:
-        maxAttempts: 5
+resliance4j.retry:
+  instances:
+    customergetall:
+      maxRetryAttempts: 5
 
 
 billing:
