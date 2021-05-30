@@ -10,6 +10,7 @@ eureka:
 resilience4j.retry:
   instances:
     customergetall:
-      maxAttempts: 5
+#      maxAttempts: 5
+      maxRetryAttempts: 3
 billing:
   app: This is billing App Reporting Service default
