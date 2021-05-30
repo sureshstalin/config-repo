@@ -11,6 +11,8 @@ resilience4j.retry:
   instances:
     default:
       maxAttempts: 5
+      waitDuration: 10s
+      enableExponentialBackoff: 2
 #      retryExceptions:
 #        - com.itgarden.exception.RetryException
 #      ignoreExceptions:
