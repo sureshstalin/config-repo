@@ -11,7 +11,7 @@ resliance4j:
   retry:
     instances:
       customergetall:
-        maxRetryAttampts: 5
+        maxAttempts: 5
 
 
 billing:
