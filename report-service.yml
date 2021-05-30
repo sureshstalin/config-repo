@@ -11,9 +11,9 @@ resilience4j.retry:
   instances:
     customergetall:
       maxAttempts: 5
-      retryExceptions:
-        - com.itgarden.exception.RetryException
-      ignoreExceptions:
-        - com.itgarden.exception.IgnoreException
+#      retryExceptions:
+#        - com.itgarden.exception.RetryException
+#      ignoreExceptions:
+#        - com.itgarden.exception.IgnoreException
 billing:
   app: This is billing App Reporting Service default
