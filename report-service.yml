@@ -12,6 +12,7 @@ resilience4j.retry:
     default:
       maxAttempts: 5
       waitDuration: 10s
+      enableExponentialBackoff: true
 
 billing:
   app: This is billing App Reporting Service default
