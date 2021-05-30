@@ -10,7 +10,7 @@ eureka:
 resilience4j.retry:
   instances:
     default:
-      maxAttempts: 5
+      maxAttempts: 3
       waitDuration: 10s
       enableExponentialBackoff: true
 
