@@ -7,11 +7,12 @@ eureka:
   client:
     service-url:
       default-zone: http://localhost:8761/eureka
-resilience4j:
-  retry:
-    instances:
-      customergetall:
-      #      maxAttempts: 5
-        maxRetryAttempts: 3
+resilience4j.retry:
+  instances:
+    backendA:
+      maxAttempts: 3
+      waitDuration: 10s
+      enableExponentialBackoff: true
+      exponentialBackoffMultiplier: 2
 billing:
   app: This is billing App Reporting Service default
