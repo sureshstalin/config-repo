@@ -23,5 +23,10 @@ resilience4j.timelimiter:
     default:
       timeoutDuration: 2s
 
+resilience4j.ratelimiter:
+  instances:
+    myratelimit:
+      limitForPeriod: 3
+      limitRefreshPeriod: 10s
 billing:
   app: This is billing App Reporting Service defaulttest
