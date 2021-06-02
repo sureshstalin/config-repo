@@ -21,4 +21,4 @@ resilience4j.circuitbreaker:
       waitDurationInOpenState: 30s
 #      maxWaitDurationInHalfOpenState: 120s
 billing:
-  app: This is billing App Reporting Service default
+  app: This is billing App Reporting Service defaulttest
