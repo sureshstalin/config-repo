@@ -16,6 +16,7 @@ resilience4j.retry:
 resilience4j.circuitbreaker:
   instances:
     default:
+      minimumNumberOfCalls: 10
       waitDurationInOpenState: 120s
 billing:
   app: This is billing App Reporting Service default
