@@ -18,7 +18,7 @@ resilience4j.circuitbreaker:
     default:
       minimumNumberOfCalls: 10
       permittedNumberOfCallsInHalfOpenState: 5
-#      waitDurationInOpenState: 30s
-#      maxWaitDurationInHalfOpenState: 120s
+      waitDurationInOpenState: 120s
+      maxWaitDurationInHalfOpenState: 130s
 billing:
   app: This is billing App Reporting Service defaulttest
