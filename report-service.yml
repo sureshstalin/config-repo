@@ -16,8 +16,8 @@ resilience4j.retry:
 resilience4j.circuitbreaker:
   instances:
     default:
-      minimumNumberOfCalls: 10
-      permittedNumberOfCallsInHalfOpenState: 5
+      minimumNumberOfCalls: 25
+#      permittedNumberOfCallsInHalfOpenState: 5
       waitDurationInOpenState: 120s
       maxWaitDurationInHalfOpenState: 130s
 billing:
