@@ -22,7 +22,6 @@ resilience4j.timelimiter:
   instances:
     default:
       timeoutDuration: 2s
-      cancelRunningFuture: true
 
 billing:
   app: This is billing App Reporting Service defaulttest
