@@ -26,7 +26,8 @@ resilience4j.timelimiter:
 resilience4j.ratelimiter:
   instances:
     myratelimit:
-      limitForPeriod: 2
-      limitRefreshPeriod: 5s
+      limitForPeriod: 10
+      limitRefreshPeriod: 10s
+
 billing:
   app: This is billing App Reporting Service defaulttest
