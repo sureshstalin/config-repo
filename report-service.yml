@@ -26,7 +26,7 @@ resilience4j.timelimiter:
 resilience4j.ratelimiter:
   instances:
     default:
-      limitForPeriod: 20
+      limitForPeriod: 5
       limitRefreshPeriod: 10s
 
 billing:
