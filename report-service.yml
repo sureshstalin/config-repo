@@ -28,6 +28,10 @@ resilience4j.ratelimiter:
     default:
       limitForPeriod: 4
       limitRefreshPeriod: 10s
+resilience4j.bulkhead:
+  instances:
+    default:
+      maxConcurrentCalls: 5
 
 billing:
   app: This is billing App Reporting Service defaulttest
