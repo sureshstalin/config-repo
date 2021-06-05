@@ -33,7 +33,7 @@ resilience4j.bulkhead:
   instances:
     default:
       maxConcurrentCalls: 5
-      maxWaitDuration: 100ms
+      maxWaitDuration: 1000
 
 
 billing:
