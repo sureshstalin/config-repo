@@ -33,7 +33,7 @@ resilience4j.bulkhead:
   instances:
     default:
       maxConcurrentCalls: 30
-#      maxThreadPoolSize: 5
+      maxThreadPoolSize: 5
 
 billing:
   app: This is billing App Reporting Service defaulttest
