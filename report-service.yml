@@ -32,7 +32,7 @@ resilience4j.ratelimiter:
 resilience4j.bulkhead:
   instances:
     default:
-      maxConcurrentCalls: 5
+      maxConcurrentCalls: 3
       maxWaitDuration: 1000
 
 
